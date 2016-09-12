@@ -1,0 +1,80 @@
+/* html5doctor.com Reset v1.6.1 - http://cssreset.com */
+/* --------------------------default-settings------------------------- */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul,nav ol,ul,li{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;cursor: pointer;}
+a:hover{text-decoration: none;}
+button{cursor: pointer;outline: none;}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+/* --------------------------user-settings------------------------- */
+body{width:100%;font-family:Arial;font-size:12px;color:#000;line-height:1;background:#fff;}
+.clear {clear: both;height: 0;overflow: hidden;}
+/* all */
+::-webkit-input-placeholder { color: inherit; font-size: inherit;}
+::-moz-placeholder { color: inherit; font-size: inherit;} /* firefox 19+ */
+:-ms-input-placeholder { color: inherit; font-size: inherit;} /* ie */
+input:-moz-placeholder { color: inherit; font-size: inherit;}
+input, textarea {outline:none;}
+input[type='text'], input[type='phone'], input[type='password'], input[type='email'], textarea{border:1px solid #999;border-radius:2px;background:#fff;width:100%;height:30px;padding:0 10px;color:#999;font-size:12px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+input[type='text']:hover, input[type='phone']:hover, input[type='password']:hover, input[type='email']:hover, textarea:hover {border-color: inherit;}
+input[type='text']:focus, input[type='phone']:focus, input[type='password']:focus, input[type='email']:focus, textarea:focus{color: inherit;}
+textarea{height:60px;padding:10px;overflow:auto;resize:none;line-height: 1;}
+/* --------------------------enf-default-settings------------------------- */
+.inner{
+	position:relative;
+	margin:0 auto;
+	width:auto;
+}
+.a_button{
+	position: relative;
+	display: inline-block;
+	background: inherit;
+	width: 100%;
+	color: inherit;
+	font-size: 14px;
+	line-height: inherit;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.a_button:hover{
+	background: inherit;
+}
+/*------------header---------------*/
+.header{
+	position: relative;
+	background: inherit;
+	min-width: auto;
+	padding-top: auto;
+}
+/*--------------------main---------------*/
+
+/*--------------------footer---------------*/
+
+/*--------------------modal---------------*/
+#modal_window{
+	position: relative;
+	display: none;
+	width: 310px;
+}
+#modal_success{
+	position: relative;
+	display: none;
+	width: 360px;
+}
